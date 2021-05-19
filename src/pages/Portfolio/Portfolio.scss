@@ -1,0 +1,165 @@
+@media (max-width:481px)  { 
+    .portfolio-grid .title-bg-banner{
+        margin-top : 8rem !important;
+    }
+    .portfolio-grid .dropdown{
+        margin : 0 auto;
+        text-align: center;
+        margin-top : 10rem;
+    }
+    .portfolio-grid .custom-paket-desktop{
+        display: none !important;
+    }
+    .portfolio-grid .custom-paket-mobile{
+        margin-top: 10rem;
+    }
+}
+@media(min-width:768px){
+    .portfolio-grid .custom-paket-mobile{
+        display: none;
+    }
+}
+.portfolio-grid .masthead{
+    min-height:500px;
+    background-size:cover;
+    background-image:url('../../assets/background/Background\ 6.svg');
+    margin-bottom: 10rem;
+}
+
+.portfolio-grid .search-box{
+    position: absolute;
+    right : 0;
+}
+
+.portfolio-grid .data-grid .data-grid-card{
+    padding : 1rem;
+}
+
+.portfolio-grid .data-grid .data-grid-card .card{
+    height: 30rem;
+    border : none !important;
+}
+.portfolio-grid .data-grid{
+    margin-top: 5rem;
+}
+.portfolio-grid .pagination{
+    margin : 0 auto;
+    text-align: center;
+    padding-top : 2rem;
+}
+.portfolio-grid .page-item .page-link{
+    border: none;
+    color : #37474f;
+}
+.portfolio-grid .page-item.active .page-link {
+    border: none;
+    color : #ffffff;
+    background-color: #37474f;
+}
+.portfolio-grid .breadcrumb-portfolio{
+    margin-top : 2rem;
+    margin-bottom : 2rem;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFAFB0 !important;
+}
+.category-post-content{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5270FC;
+}
+
+.portfolio-grid .text-panel{
+    margin-bottom: 2rem;
+}
+.portfolio-grid .card-title{
+    min-height: 70px;
+}
+.portfolio-grid .title-bg-banner{
+    margin-top : 10rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 72px;
+    color: #263476;
+}
+.portfolio-grid .custom-paket-desktop{
+    background-image:url('../../assets/background/Background\ 2.svg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 10rem;
+    width: 1132px;
+    height: 286px;
+
+}
+.portfolio-grid .custom-paket-desktop .title-custom-paket{
+    padding : 4rem;
+    height: 40px;
+    left: 271px;
+    top: 2963px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    margin :0 auto;
+    text-align: center;
+    color: #272A36;
+}
+
+.portfolio-grid .custom-paket-desktop .subject-custom-paket{
+    padding : 1rem;
+    height: 40px;
+    left: 271px;
+    top: 2963px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    margin :0 auto;
+    text-align: center;
+    color: #272A36;
+}
+.portfolio-grid .custom-paket-desktop .btn-custom-paket{
+    display: flex;
+    justify-content: center;
+    margin-left:4rem;
+    margin-top: 2rem;
+}
+
+.portfolio-grid .custom-paket-mobile .title-custom-paket{
+    margin-top : 5rem !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.portfolio-grid .custom-paket-mobile .subject-custom-paket{
+    padding : 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+.portfolio-grid .custom-paket-mobile .btn-pink{
+    margin-top : 1rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.portfolio-grid .custom-paket-mobile{
+    border-radius: 10%;
+    border : none !important;
+    margin-top : 10rem;
+    background-image:url('../../assets/background/Background\ 3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

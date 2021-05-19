@@ -1,0 +1,227 @@
+@media (max-width:481px)  { 
+    .image-banner {
+        display: none;
+    }
+    .bg-label-banner {
+        margin-top : 20rem;
+        font-size : '60px';
+    }
+    .bg-banner {
+        margin-top : 20px;
+    }
+    .container-layanan{
+        position: relative;
+    }
+    .img-layanan-desktop{
+        display: none;
+    }
+    .img-layanan-mobile{
+        display: block;
+    }
+    .icon-item-layanan{
+        width: 1px;
+    }
+    // .icon-item-layanan{
+    //     background-image:none;
+    // }
+ }
+ @media(min-width:768px){
+    .bg-banner {
+        margin-top : 10vh;
+    }
+ }
+
+//  Z
+.title-about {
+    // position: absolute;
+    width: 748px;
+    // height: 72px;
+    // left: 346px;
+    margin-top: 220px;
+    // padding-left: 15rem;
+
+    /* Heading/Title 1 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 72px;
+    /* identical to box height, or 138% */
+    color: #263476;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.desc-about-1 {
+    // position: absolute;
+    width: 748px;
+    // height: 108px;
+    // left: 346px;
+
+    /* Text/Med/XXL */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    // padding-left: 15rem;
+
+    /* Neutral / 1 */
+
+    color: #272A36;
+}
+.desc-about-2 {
+    // position: absolute;
+    width: 748px;
+    // height: 170px;
+    // left: 346px;
+    // padding-left: 15rem;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    /* Neutral / 1 */
+    color: #272A36;
+}
+.bg-about {
+    height:100vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('../../assets/background/Background\ 4.svg');
+    margin-bottom: 15rem;
+}
+.bg-about-2 {
+    height: 300px;
+    width: 300px;
+    margin-top: 5rem;
+    background-size:cover;
+    background-image:url('../../assets/image/groot.jpg');
+    // margin-bottom: 15rem;
+}
+.bg-purple {
+    background-color: #37003c;
+    // height:100%;
+    // min-height:100%;
+    background-size:100%;
+    // background-image:url('../../assets/background/Background\ 4.svg');
+    margin-bottom: 1rem;
+}
+.bg-green {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    background-color: #00ff87;
+    // height:100%;
+    // min-height:100%;
+    //background-size:100%;
+    // background-image:url('../../assets/logo/Logo.png');
+    // margin-bottom: 15rem;
+}
+.font-purple {
+    color:  #37003c;
+}
+.font-green {
+    color:  #00ff87;
+}
+.font-white {
+    color:aliceblue;
+}
+.ls-banner {
+    // flex-direction: row;
+    font-size : 1.5rem;
+    // margin-top : 15rem;
+    color : #000000;
+}
+.mt-20 {
+    margin-top: 20rem;
+}
+.pl-18 {
+    padding-left: 18rem;
+}
+.image-banner  {
+    right: 0;
+    height: 300px;
+    width: 300px;
+   // position: relative;
+    // margin-top: -5rem;
+   // margin-right: 10rem;
+}
+
+.banner-sosmed {
+    margin-top : 10rem
+}
+
+.banner-sosmed hr {
+        border: 0;
+        clear:both;
+        display:block;
+        width: 85%;    
+        background-color:#FFFF00;
+        height: 1px;
+      
+  }
+.container-about{
+    // position: absolute;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    margin-top: -5rem
+}
+.subject-layanan{
+    color : #AFAFB0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1rem;
+}
+.header-layanan{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 1.5rem;
+}
+.content-layanan{
+    font-size: 20px;
+    color : #272A36;
+    margin-bottom: 1.5rem;
+}
+.img-layanan {
+    position: absolute;
+}
+.line-bottom-layanan{
+    position: absolute;
+    bottom: 0;
+}
+.btn-blue{
+    margin-bottom: 5rem;
+}
+
+.icon-layanan{
+    border-radius: 1rem;
+    width: 60px;
+    height: 60px;
+    // background-size:cover;
+    // background-image:url('../../assets/background/Background\ 2.svg');
+    margin-bottom: 2rem;
+}
+.icon-item-layanan{
+    // background-size:cover;
+    // background-image:url('../../assets/background/Background\ 2.svg');
+    // margin-bottom: 2rem;
+}
+.title-item-layanan{
+    margin-bottom: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.content-item-layanan{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
