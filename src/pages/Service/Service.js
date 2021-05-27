@@ -78,50 +78,57 @@ const Service = () => {
                             </section>
 
                             <section className="container container-paket">
-                                <div className="header-paket col-md-12">Pilih paket website untuk anda.</div>
-                                <div className="form-inline">
-                                    {(() => {
-                                        const paket = [];
-                                        state.service.map((item) => {
-                                            paket.push(
-                                                <React.Fragment>
-                                                    <div className="card-paket" style={{ height: item.daftarpaket.length * 150 }}>
-                                                        <div className=" basic-paket" >
-                                                            {item.judul}
-                                                        </div>
-                                                        <div className="harga-paket"> {item.harga}</div>
-                                                        {/* <div className="time-for-paket">per Bulan</div> */}
-                                                        <div>
-                                                            <button className="btn-purple-paket" >
-                                                                <a class="btn-paket" href={item.urlbutton}>{item.judulbutton1}</a>
-                                                            </button>
-                                                        </div>
-                                                        <div className="container detail-paket" >
-                                                            {(() => {
-                                                                let detailpaket = [];
-                                                                for (let i = 0; i < item.daftarpaket.length; i++) {
-                                                                    detailpaket.push(
-                                                                        <div className="row">
-                                                                            <div className="form-inline">
-                                                                                <img src={iconquestionmarkfield} />
-                                                                                <label>{item.daftarpaket[i]}</label>
-                                                                            </div>
-                                                                        </div>)
+                                <div className="header-paket col-md-12">
+                                    Pilih paket website untuk anda.
+                                </div>
+                                <div className="row">
+                                    <div className="form-inline" style={{display: "contents"}}>
+                                        {(() => {
+                                            const paket = [];
+                                            state.service.map((item) => {
+                                                paket.push(
+                                                    <React.Fragment>
+                                                        <div className="card-paket" 
+                                                        // style={{ height: item.daftarpaket.length * 150 }}
+                                                        style={{ height: "auto" }}
+                                                        >
+                                                            <div className=" basic-paket" >
+                                                                {item.judul}
+                                                            </div>
+                                                            <div className="harga-paket"> {item.harga}</div>
+                                                            {/* <div className="time-for-paket">per Bulan</div> */}
+                                                            <div>
+                                                                <button className="btn-purple-paket" >
+                                                                    <a class="btn-paket" href={item.urlbutton}>{item.judulbutton1}</a>
+                                                                </button>
+                                                            </div>
+                                                            <div className="container detail-paket" >
+                                                                {(() => {
+                                                                    let detailpaket = [];
+                                                                    for (let i = 0; i < item.daftarpaket.length; i++) {
+                                                                        detailpaket.push(
+                                                                            <div className="row">
+                                                                                <div className="form-inline">
+                                                                                    <img src={iconquestionmarkfield} />
+                                                                                    <label>{item.daftarpaket[i]}</label>
+                                                                                </div>
+                                                                            </div>)
+                                                                    }
+                                                                    return detailpaket
                                                                 }
-                                                                return detailpaket
-                                                            }
-                                                            )()}
+                                                                )()}
+                                                            </div>
+                                                            <hr />
+                                                            {/* <div className="see-paket">
+                                                                <Link to="/service"> {item.judulbutton2}</Link>
+                                                            </div> */}
                                                         </div>
-                                                        <hr />
-                                                        <div className="see-paket">
-                                                            <Link to="/service"> {item.judulbutton2}</Link>
-                                                        </div>
-                                                    </div>
-                                                </React.Fragment>
-                                            )
-                                        })
-                                        return paket;
-                                    })()}
+                                                    </React.Fragment>
+                                                )
+                                            })
+                                            return paket;
+                                        })()}
+                                    </div>
                                 </div>
                             </section>
 
@@ -162,7 +169,7 @@ const Service = () => {
                                                                     item.header == 1 ?
                                                                         <>
                                                                             <div className="form-inline">
-                                                                                <label className="gimmick">Per Bulan</label>
+                                                                                {/* <label className="gimmick">Per Bulan</label> */}
                                                                             </div>
                                                                         </> : null
                                                                 }
@@ -189,7 +196,7 @@ const Service = () => {
                                                                     item.header == 1 ?
                                                                         <>
                                                                             <div className="form-inline">
-                                                                                <label className="gimmick">Per Bulan</label>
+                                                                                {/* <label className="gimmick">Per Bulan</label> */}
                                                                             </div>
                                                                         </> : null
                                                                 }
@@ -216,7 +223,7 @@ const Service = () => {
                                                                     item.header == 1 ?
                                                                         <>
                                                                             <div className="form-inline">
-                                                                                <label className="gimmick">Per Bulan</label>
+                                                                                {/* <label className="gimmick">Per Bulan</label> */}
                                                                             </div>
                                                                         </> : null
                                                                 }
@@ -292,7 +299,7 @@ const Service = () => {
                                                         fitur: !state.fitur
                                                     }))
                                                 }>
-                                                    {'Fitur'}
+                                                    {'Legalitas yang didapat'}
                                                     <label className="pull-right">{state.fitur ? <img src={up} /> : <img src={down} />}</label>
                                                 </button>
                                             </div>

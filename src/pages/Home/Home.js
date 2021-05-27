@@ -28,7 +28,7 @@ const Home = () => {
     banner: [],
     beranda: [],
     service: [],
-    portofolio: [],
+    // portofolio: [],
     ourclient: [],
     urlsosmed: [],
     styleMasthead: "",
@@ -94,7 +94,7 @@ const Home = () => {
           urlsosmed: res.data.data.urlsosmed.data,
           beranda: res.data.data.beranda.data,
           service: res.data.data.service.data,
-          portofolio: res.data.data.portofolio.data,
+          // portofolio: res.data.data.portofolio.data,
           ourclient: res.data.data.ourclient.data,
         }));
       })
@@ -111,7 +111,7 @@ const Home = () => {
         state.beranda.length == 1 ||
         state.service.length > 0 ||
         state.urlsosmed.length > 0 ||
-        state.portofolio.length > 0 ||
+        // state.portofolio.length > 0 ||
         state.ourclient.length > 0 ? (
         <>
           {/* BANNER */}
@@ -147,7 +147,9 @@ const Home = () => {
                       </div>
                       <div className="row col-md-12 group-btn animate__animated  animate__zoomInDown">
                         <Bounce triggerOnce>
-                          <button
+                          <a
+                            href={item.urlbutton}
+                            target="_blank"
                             className="btn-pink mr-3"
                             onMouseEnter={(e) =>
                               AnimatedInject(
@@ -166,9 +168,11 @@ const Home = () => {
                               )
                             }
                           >
-                            Hubungi Kami
-                          </button>
-                          <button
+                            {item.titlebutton}
+                          </a>
+                          <a
+                            href={item.urlbutton2}
+                            target="_blank"
                             className="btn-white"
                             onMouseEnter={(e) =>
                               AnimatedInject(
@@ -187,8 +191,8 @@ const Home = () => {
                               )
                             }
                           >
-                            Paket Website
-                          </button>
+                            {item.titlebutton2}
+                          </a>
                         </Bounce>
                       </div>
 
@@ -197,10 +201,10 @@ const Home = () => {
                           {(() => {
                             let sosmedimg = [];
                             state.urlsosmed.map((item) => {
-                              sosmedimg.push(<img
+                              sosmedimg.push(<a href={item.urlimage} target="_blank"><img
                                 src={localStorage.getItem('host')+item.image_base64}
                                 className="mr-3 animate__animated  animate__zoomInDown"
-                              />
+                              /></a>
                               )
                             })
                             return sosmedimg
@@ -251,7 +255,7 @@ const Home = () => {
                             {item.desc}
                           </div>
                           <div className="row col-md-8">
-                            <Link className="btn-blue col-md-2" to="/service">{item.titlebutton}</Link>
+                            <Link className="btn-blue mobile col-md-2" to="/service">{item.titlebutton}</Link>
                           </div>
                           <div className="row">
 
@@ -308,14 +312,17 @@ const Home = () => {
             <div className="header-paket col-md-12">
               Pilih paket untuk anda.
             </div>
-            <div className="">
-              <div className="form-inline">
+            <div className="row">
+              <div className="form-inline" style={{display: "contents"}}>
                 {(() => {
                   const paket = [];
                   state.service.map((item) => {
                     paket.push(
                       <React.Fragment>
-                        <div className="card-paket" style={{ height: item.daftarpaket.length * 150 }}>
+                        <div className="card-paket" 
+                          // style={{ height: item.daftarpaket.length * 150 }}
+                          style={{ height: "auto" }}
+                        >
                           <div className=" basic-paket" >
                             {item.judul}
                           </div>
@@ -363,9 +370,9 @@ const Home = () => {
                             )()}
                           </div>
                           <hr />
-                          <div className="see-paket">
-                            <Link to="/service"> {item.judulbutton2}</Link>
-                          </div>
+                          {/* <div className="see-paket">
+                            <Link to="/layanan"> {item.judulbutton2}</Link>
+                          </div> */}
                         </div>
                       </React.Fragment>
                     )
@@ -408,7 +415,7 @@ const Home = () => {
               <button className="btn-pink">Konsultasi Sekarang</button>
             </Card>
           </div> */}
-          <section className="container home-portfolio">
+          {/* <section className="container home-portfolio">
             <div className="form-inline">
               <div className="title-porfolio">Portofolio kami.</div>
               <div className="col-md-6">
@@ -427,7 +434,7 @@ const Home = () => {
                       </div>
                       <div className="breadcrumb-portfolio">
                         <FontAwesomeIcon size="xs" icon={faCircle} /> {item.kategori} &nbsp;
-                  {/* <FontAwesomeIcon size="xs" icon={faCircle} /> Company Profile */}
+                  <FontAwesomeIcon size="xs" icon={faCircle} /> Company Profile
                   &nbsp;
                 </div>
                       <div className="body-portfolio">
@@ -444,9 +451,8 @@ const Home = () => {
                })
                return portfolioData
              })()}
-
             </div>
-          </section>
+          </section> */}
           <section className="home-client">
             <div className="title-home-client">Klien Kami</div>
             <div className="container"></div>

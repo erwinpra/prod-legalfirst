@@ -34,6 +34,9 @@
     .home .banner-sosmed{
         margin-top : 2rem !important;
     }
+    .home .btn-blue{
+        margin-top: 1rem !important;
+    }
  }
  @media(min-width:768px){
     .home .bg-banner {
@@ -45,7 +48,10 @@
     .home .custom-paket-mobile.card{
         display: none;
     }
-    
+    .home .btn-blue{
+        margin-top: 1rem;
+    }
+
  }
  
  .home .bg-banner {
@@ -98,11 +104,12 @@
 .home .container-layanan{
     margin-top : - 16rem;
     .img-layanan-desktop{
-        width: 320px;
-        height: 320px;
+        width: 335px;
+        height: 335px;
     }
     .img-layanan-mobile{
-        width: 320px;
+        width: 100%;
+        margin-bottom: 1rem;
         height: 320px;
     }
     
@@ -138,7 +145,7 @@
     bottom: 0;
 }
 .home .btn-blue{
-    margin-bottom: 5rem;
+    margin-bottom: 5rem !important;
 }
 .home .item-layanan{
     .icon-item-layanan{
@@ -186,7 +193,7 @@
 }
 .home .card-paket{
     width: 348px;
-    height: 735px;
+    // height: 735px;
     top: 2048px;
     margin:10px;
     padding: 50px;

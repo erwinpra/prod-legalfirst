@@ -41,7 +41,7 @@ class Navigation extends Component {
               <Nav className="mr-auto navbar-item" >
                 <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/beranda" onClick={()=>this.handleNavLink()} >Beranda</NavLink >
                 <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/layanan" onClick={()=>this.handleNavLink()} >Layanan</NavLink >
-                <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/portfolio" onClick={()=>this.handleNavLink()} >Portfolio</NavLink >
+                {/* <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/portfolio" onClick={()=>this.handleNavLink()} >Portfolio</NavLink > */}
                 <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/tentang" onClick={()=>this.handleNavLink()} >Tentang</NavLink >
                 <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/kontak" onClick={()=>this.handleNavLink()} >Kontak</NavLink >
                 <NavLink className="ml-4 mr-4 nav-link" activeStyle={activeStyles} to="/artikel" onClick={()=>this.handleNavLink()} >Artikel</NavLink >

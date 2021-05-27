@@ -81,7 +81,7 @@ const BlogGrid = () => {
                 <div className="container h-100">
                     <div className="row">
                         <div className="container title-bg-banner">
-                            <label className="container">Blog</label>
+                            <label className="container">Artikel</label>
                         </div>
                     </div>
                     <div className="row blog-grid-panel">

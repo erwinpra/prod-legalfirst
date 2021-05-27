@@ -1,0 +1,5 @@
+note 20/05/2021
+
+kurang logo -> PENDING
+rapihin tampilan mobile home -> DONE, 21/05/2021
+tambah kolom layanan di page home -> DONE, 21/05/2021

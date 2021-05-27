@@ -21,7 +21,7 @@ export default class Footer extends Component {
                             </div>
                             <div className="col-md-6 px-4">
                                 <h6> Tentang</h6>
-                                <p>Kami ada untuk menjawab segala macam kebutuhan sisten untuk bisnis anda</p>
+                                <p>Kami ada untuk menjawab kebutuhan legalitas bisnis Anda</p>
                                 {/* <a href="#" className="btn-footer"> More Info </a><br />
                                 <a href="#" className="btn-footer"> Contact Us</a> */}
                             </div>
@@ -45,7 +45,7 @@ export default class Footer extends Component {
                                 </div>
                             </div>
                             <div className="col-md-6 ">
-                                <h6> © 2021 PT Logika Prima Data</h6>
+                                <h6> © 2021 Legal First</h6>
                             </div>
                         </div>
                     </div>

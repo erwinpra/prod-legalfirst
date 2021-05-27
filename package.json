@@ -30,7 +30,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://erwinpra.github.io/prod-legalfirst",
+  "homepage": "https://legalfirst.id",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

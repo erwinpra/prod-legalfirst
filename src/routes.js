@@ -6,7 +6,7 @@ const BlogPage = React.lazy(() => import('./pages/Blog/Blog.js'))
 const BlogDetailPage = React.lazy(() => import('./pages/Blog/BlogDetail/BlogDetail.js'))
 const BlogGridPage = React.lazy(() => import('./pages/Blog/BlogGrid/BlogGrid.js'))
 const ServicePage = React.lazy(() => import('../src/pages/Service/Service.js'))
-const PortfolioPage = React.lazy(() => import('../src/pages/Portfolio/Portfolio.js'))
+// const PortfolioPage = React.lazy(() => import('../src/pages/Portfolio/Portfolio.js'))
 const kbli = React.lazy(() => import('../src/pages/Kbli/Kbli.js'))
 
 const routes = [
@@ -28,10 +28,10 @@ const routes = [
         path: "/layanan",
         component: ServicePage,
     },
-    {
-        path: "/portfolio",
-        component: PortfolioPage,
-    },
+    // {
+    //     path: "/portfolio",
+    //     component: PortfolioPage,
+    // },
     {
         path: "/artikel",
         component: BlogPage,
