@@ -5,8 +5,8 @@
     "static/js/1.7e5abccb.chunk.js": "/static/js/1.7e5abccb.chunk.js",
     "static/js/1.7e5abccb.chunk.js.map": "/static/js/1.7e5abccb.chunk.js.map",
     "main.css": "/static/css/main.a3908a54.chunk.css",
-    "main.js": "/static/js/main.d7a10805.chunk.js",
-    "main.js.map": "/static/js/main.d7a10805.chunk.js.map",
+    "main.js": "/static/js/main.dddcd163.chunk.js",
+    "main.js.map": "/static/js/main.dddcd163.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be158104.js",
     "runtime-main.js.map": "/static/js/runtime-main.be158104.js.map",
     "static/js/4.3a49cd58.chunk.js": "/static/js/4.3a49cd58.chunk.js",
@@ -63,7 +63,6 @@
     "static/js/5.38968ff1.chunk.js.LICENSE.txt": "/static/js/5.38968ff1.chunk.js.LICENSE.txt",
     "static/js/6.212b4496.chunk.js.LICENSE.txt": "/static/js/6.212b4496.chunk.js.LICENSE.txt",
     "static/js/9.9c6662e0.chunk.js.LICENSE.txt": "/static/js/9.9c6662e0.chunk.js.LICENSE.txt",
-    "static/media/2-legalfirst.ff83aeec.png": "/static/media/2-legalfirst.ff83aeec.png",
     "static/media/BlogGrid.scss": "/static/media/Background 6.ef762b7c.svg",
     "static/media/Service.scss": "/static/media/Background 3.284c9116.svg",
     "static/media/Kbli.scss": "/static/media/Background 4.e6cf833d.svg",
@@ -84,6 +83,7 @@
     "static/media/icon-white-instagram.svg": "/static/media/icon-white-instagram.950c9e14.svg",
     "static/media/icon-white-twitter.svg": "/static/media/icon-white-twitter.2ee12aa5.svg",
     "static/media/icon-white-whatsapp.svg": "/static/media/icon-white-whatsapp.45f99033.svg",
+    "static/media/legal-first-fit-resize.5c95870f.png": "/static/media/legal-first-fit-resize.5c95870f.png",
     "static/media/logpad-banner-icon.9aadce58.svg": "/static/media/logpad-banner-icon.9aadce58.svg",
     "static/media/logpad-layanan-icon.bd75725e.svg": "/static/media/logpad-layanan-icon.bd75725e.svg",
     "static/media/logpad-white.2df7b7a3.svg": "/static/media/logpad-white.2df7b7a3.svg",
@@ -98,6 +98,6 @@
     "static/css/6.da2937ac.chunk.css",
     "static/js/6.212b4496.chunk.js",
     "static/css/main.a3908a54.chunk.css",
-    "static/js/main.d7a10805.chunk.js"
+    "static/js/main.dddcd163.chunk.js"
   ]
 }
