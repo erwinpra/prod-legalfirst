@@ -3,7 +3,7 @@ import {Navbar , Nav, NavDropdown, Form, Button, Container} from 'react-bootstra
 import './Navigation.scss'
 
 import logpad from '../../assets/logo/logpad.svg'
-import legal from '../../assets/logo/2-legalfirst.png'
+import legal from '../../assets/logo/legal-first-fit-resize.png'
 import {NavLink} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
@@ -34,7 +34,7 @@ class Navigation extends Component {
       return(
         <>
           <Navbar className="navbar navbar-expand-sm fixed-top navbar-light" expand="lg">
-            <Navbar.Brand href="#home"><img className="nav-img" src={legal} alt="Logika prima data"/></Navbar.Brand>
+            <Navbar.Brand href="#home"><img className="nav-img" src={legal} style={{ height: "80px", width: "100px" }} alt="Logika prima data"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Container fluid className="justify-content-md-center">
             <Navbar.Collapse id="basic-navbar-nav">
