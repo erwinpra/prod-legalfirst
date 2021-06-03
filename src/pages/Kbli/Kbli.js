@@ -105,9 +105,17 @@ const Kbli = () => {
             <section className="masthead-2">
                 <div className="container h-100">
                     <div className="row">
-                        {/* <div className="container title-bg-banner">
-                            <label>Data KBLI 2020</label>
-                        </div> */}
+                        <div className="container">
+                            <label>
+                                <b>Search keyword</b>: Contoh ketik <b>payment gateway</b> untuk KBLI <b>66411</b> atau ketik <b>74902</b> untuk kegiatan <b>konsultasi bisnis</b> dan <b>broker bisnis</b>. Di KBLI 2020 ditambahkan beberapa kegiatan usaha yang baru misalnya kegiatan <b>konten kreatif</b>. Kamu bisa pilih kode KBLI <b>74141</b> untuk kegiatan <b>konten kreatif</b>.
+                                <br/>
+                                <br/>
+                                <b>Kode yang sering di pilih</b>: 63122 - kegiatan web portal / platform, 46494 - perdagangan kosmetik, 70209 - konsultan manajemen lainnya, 82302 - event organizer, 46693 - perdagangan alat kesehatan. Di KBLI 2020 ada tambahan kode KBLI baru misalnya 74141 - konten kreatif, 66411 - payment gateway.
+                            </label>
+                        </div>
+                        <div className="container text-panel col-lg-12">
+                            <label><a href="https://legalfirst.id/kbli-2020.pdf">Download KBLI 2020</a></label>
+                        </div>
                         <div className="container">
                             <div className="row container text-panel col-lg-12">
                                 {/* <div dangerouslySetInnerHTML={ {__html: state.description} } /> */}
@@ -138,9 +146,6 @@ const Kbli = () => {
                                 />
                             </div>
                             <br/>
-                            <div className="row container text-panel col-lg-12">
-                                <label><a href="https://legalfirst.id/kbli-2020.pdf">Download KBLI</a></label>
-                            </div>
                         </div>
                     </div>
                 </div>
